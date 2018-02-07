@@ -8,56 +8,56 @@ catalog:
         - variable: "SHM_SIZE"
           type: "int"
           required: true
-          label: ""
-          description: "The Oracle Database SID that should be used (default: 1)"
+          label: "Amount of Linux shared memory"
+          description: "Amount of Linux shared memory (default: 1)"
           default: 1
 
         - variable: "ORACLE_SID"
           type: "string"
           required: true
-          label: ""
+          label: "Oracle Database SID"
           description: "The Oracle Database SID that should be used (default: ORCLCDB)"
           default: ORCLCDB
 
         - variable: "ORACLE_PDB"
           type: "string"
           required: true
-          label: ""
+          label: "ORACLE_PDB"
           description: "The Oracle Database PDB name that should be used (default: ORCLPDB1)"
           default: "ORCLPDB1"
 
         - variable: "ORACLE_PWD"
           type: "password"
           required: true
-          label: ""
+          label: "ORACLE_PWD"
           description: "The Oracle Database SYS, SYSTEM and PDB_ADMIN password (default: auto generated)"
           default: ""
 
         - variable: "ORACLE_CHARACTERSET"
           type: "string"
           required: true
-          label: ""
+          label: "ORACLE_CHARACTERSET"
           description: "The character set to use when creating the database (default: AL32UTF8)"
           default: "AL32UTF8"
 
         - variable: "XE_PROT"
           type: "int"
           required: true
-          label: ""
+          label: "XE_PROT"
           description: "Oracle XMLDB HTTP port"
           default: 8080
 
         - variable: "EMWC_PROT"
           type: "int"
           required: true
-          label: ""
+          label: "EMWC_PROT"
           description: "Oracle Enterprise Manager Web Console"
           default: 5500
 
         - variable: "EMR_PROT"
           type: "int"
           required: true
-          label: ""
+          label: "EMR_PROT"
           description: "Oracle Enterprise Manager Repository port"
           default: 1521
 
