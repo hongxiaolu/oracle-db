@@ -3,6 +3,7 @@ catalog:
     name: oracle databases
     version: 12.2.0.1-ee
     description: oracle databases-12.2.0.1-ee
+    group: oracle
 
     questions:
         - variable: "SHM_SIZE"
